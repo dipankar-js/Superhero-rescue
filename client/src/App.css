@@ -1,4 +1,25 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&family=Roboto&display=swap');
+
+body {
 	margin: 0;
 	padding: 0;
+	background: #ddd;
+	font-family: 'Roboto', sans-serif;
+}
+h1,
+h3 {
+	font-family: 'MuseoModerno', cursive;
+}
+.heading {
+	text-align: center;
+	font-family: 'MuseoModerno', cursive;
+	font-size: 35px;
+	padding: 0 20px;
+}
+.App {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
 }

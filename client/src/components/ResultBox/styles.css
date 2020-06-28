@@ -1,0 +1,29 @@
+.container {
+	width: 300px;
+	padding: 8px 30px;
+	background-color: #ddd;
+	border-radius: 10px;
+	border: 1px solid black;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* animation: jumpIn 0.2s ease-in-out; */
+	text-align: center;
+}
+.result {
+	font-family: 'MuseoModerno', cursive;
+	font-size: 20px;
+}
+
+@keyframes jumpIn {
+	0% {
+		transform: translateY(-100px);
+	}
+	95% {
+		transform: translateY(30px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
