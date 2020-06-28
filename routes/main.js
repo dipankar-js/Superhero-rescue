@@ -45,7 +45,7 @@ router.post('/', (req, res) => {
 	});
 
 	if (!match) {
-		return res.status(404).json({
+		return res.status(200).json({
 			success: false,
 			data: 'No Superhero found'
 		});
