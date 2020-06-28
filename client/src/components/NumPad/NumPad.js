@@ -25,10 +25,7 @@ export default function NumPad() {
 			code: code
 		};
 		// API Call
-		let response = await axios.post(
-			'http://localhost:5000/api/superhero',
-			data
-		);
+		let response = await axios.post('/api/superhero', data);
 		if (response.data.success) {
 			setSuperHero(`Stay Calm ! ${response.data.data} is here for your rescue`);
 		} else {
