@@ -1,9 +1,10 @@
 const express = require('express');
-
+const cors = require('cors');
 // Routes files
 const mainRoute = require('./routes/main');
 const app = express();
 
+app.use(cors());
 // Body parser
 app.use(express.json());
 
